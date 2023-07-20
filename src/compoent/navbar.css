@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.navbar {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  /*box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+}
+
+.nav-links li {
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.nav-item {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.nav-item Link{
+  color: white;
+}
+
+.nav-item a:hover {
+  padding-bottom: 12px;
+  border-bottom: 3px solid white;
+}
+
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.hero-section h1 {
+  text-align: center;
+  font-size: 80px;
+}
+.mobile-menu-icon {
+  display: none;
+}
+button {
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  background: none;
+}
+.mobile-menu-icon{
+  color: antiquewhite;
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    justify-content:space-between;
+  }
+  .nav-expand-btn {
+    background-color: white;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+  }
+  .logo{
+    margin-left: 1rem;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .nav-links-container-mobile {
+    position: relative;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    flex-direction: column;
+    right: 8rem;
+    margin-top: 1.8rem;
+    /* background-color: white; */
+  }
+  .nav-item{
+    margin: 0;
+    width: 10rem;
+    background-color: white;
+  }
+  .nav-item a {
+    color: black;
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .nav-expand-btn {
+    all: unset;
+  }
+}

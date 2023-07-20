@@ -1,0 +1,163 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    column-gap: 0;
+    background-image: url(../assets/herobg.png);
+  }
+  
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+  }
+
+  
+  .reg-count {
+    color: white;
+    display: flex;
+    margin-top: 15px;
+    margin-right: auto;
+    padding-left: 115px;
+    margin-left: 0;
+  }
+  
+  .solid-line-first {
+    width: 460px;
+    border-top: 4px solid white;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  
+  .solid-line-second {
+    width: 460px;
+    border-top: 4px solid white;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  
+  .start-section {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  
+  .end-section {
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .start {
+    margin-right: auto;
+  }
+  
+  .end {
+    margin-left: auto;
+  }
+  
+  .single-line-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 15px; /* Adjust the value to control the gap size */
+    align-items: center;
+  }
+  
+  .centered-content {
+    /* Styles for the centered content */
+    margin-left: 10%;
+  }
+  
+  .wolf {
+    position: relative;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  
+  .row-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .right-end {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .reg-count h3 {
+    margin-right: 10px;
+  }
+  
+  .reg-count h3:last-child {
+    margin-right: 0;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .hero-section {
+      /* display: unset; */
+      padding: 0 2rem 5rem;
+    }
+    .text-section {
+      /* margin: 0 2rem; */
+      width: 100%;
+      height: 24rem;
+    }
+    .hero-section h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      word-spacing: 1rem;
+      margin: 1rem 0;
+    }
+    .start-section-top {
+      margin-bottom: 0;
+    }
+    .start {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+    .end {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+    .solid-line-first {
+      width: 11rem;
+    }
+    .solid-line-second {
+      width: 11rem;
+    }
+    .single-line-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .reg-count {
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 0;
+    }
+    .reg-count-h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .reg-count-h3-2{
+      font-size: 0.9rem;
+    }
+  }
+  
+    
+
+
+  
