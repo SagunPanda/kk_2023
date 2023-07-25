@@ -61,7 +61,7 @@ const Homepage = () => {
 
         <div className="reg-count">
           <h3 className="reg-count-h3">{visitorCount}</h3>
-          <h3 className="reg-count-h3-2">PRE REGISTRATION HAS DONE</h3>
+          <h3 className="reg-count-h3-2">PRE REGISTRATION'S ARE DONE</h3>
         </div>
       </section>
     </>
