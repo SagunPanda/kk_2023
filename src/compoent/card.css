@@ -16,11 +16,14 @@
 
 .text {
   color: white;
+  font-family: "bold";
+  font-weight: 100;
 }
 
 .paragraph {
   color: #808080;
   margin-top: 10px;
+  font-family: "Medium"; 
 }
 
 .input-container {
@@ -72,6 +75,7 @@
   clip-path: polygon(16.5% 0, 100% 0, 100% 100%, 0% 100%);
   margin-left: -19px;
   font-weight: 800;
+  font-family: "Medium"; 
 }
 
 .unlock-card h6 {
@@ -95,6 +99,8 @@
 .line {
   width: 200px;
   border-top: 4px solid #808080;
+  margin-right: 55px;
+  margin-top: 15px;
 }
 
 .lock {

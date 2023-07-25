@@ -34,13 +34,13 @@ const Navbar = () => {
                 >
                   <li className="nav-item">
                     <Link
-                      to="contact"
+                      to="about"
                       spy={true}
                       smooth={true}
                       offset={50}
                       duration={500}
                     >
-                      Contact us
+                      About us
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -56,13 +56,13 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      to="about"
+                      to="contact"
                       spy={true}
                       smooth={true}
                       offset={50}
                       duration={500}
                     >
-                      About us
+                      Contact us
                     </Link>
                   </li>
                 </ul>
@@ -75,14 +75,14 @@ const Navbar = () => {
             onClick={() => setMobile(false)}
           >
             <li className="nav-item">
-              <Link
-                to="contact"
+            <Link
+                to="about"
                 spy={true}
                 smooth={true}
                 offset={50}
                 duration={500}
               >
-                Contact us
+                About us
               </Link>
             </li>
             <li className="nav-item">
@@ -97,14 +97,14 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="about"
+            <Link
+                to="contact"
                 spy={true}
                 smooth={true}
                 offset={50}
                 duration={500}
               >
-                About us
+                Contact us
               </Link>
             </li>
           </ul>

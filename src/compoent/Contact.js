@@ -48,7 +48,7 @@ const Contact = () => {
           <h3 className="footer-contact-h1">CONTACT US</h3>
           <div className="mail">
           <a href=" official@kanineklans.com"><img src={Mail} alt="mail" /> </a>
-          <a href=" official@kanineklans.com"><img src={Component} alt="comp" /> </a>
+          <a href=" https://join.skype.com/invite/wzxEJUDAlQ0T"><img src={Component} alt="comp" /> </a>
           </div>
         </div>
       </div>

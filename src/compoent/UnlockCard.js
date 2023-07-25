@@ -10,7 +10,7 @@ const Card = () => {
                 <img className="lock" src={lock} alt="lock" />
             </div>
             <div className="line"> </div>
-            <h5>WILL UNLOCK SOON</h5>
+            <h5 style={{  fontFamily: "Medium" }}>WILL UNLOCK SOON</h5>
         </div>
     )
 };

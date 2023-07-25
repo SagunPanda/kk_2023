@@ -5,7 +5,7 @@ import axios from "axios";
 import { useMediaQuery } from "react-responsive";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import axios from 'axios';
+// import ReCAPTCHA from "react-google-recaptcha";
 
 const Card = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
@@ -24,14 +24,14 @@ const Card = () => {
   const showSuccessToast = () => {
     toast.success('Successfully submitted', {
       position: toast.POSITION.TOP_CENTER,
-      autoClose: 3000 
+      autoClose: 3000
     });
   };
 
   const showerrorToast = () => {
     toast.error('oops', {
       position: toast.POSITION.TOP_CENTER,
-      autoClose: 3000 
+      autoClose: 3000
     });
   };
 
@@ -57,36 +57,40 @@ const Card = () => {
 
     //    Axios
     axios.post("http://13.235.33.145:8000/users", {
-        // name: data.name,
-        // email: data.email
-        name: name,
-        email: email
-        
+      // name: data.name,
+      // email: data.email
+      name: name,
+      email: email
+
     }, {
-        headers: {
-            "Content-Type": "application/json"
-        }
+      headers: {
+        "Content-Type": "application/json"
+      }
     }).then((res) => {
-        console.log(res);
-        if (res.status === 200) {
-            console.log("registration Done");
-            // setData({ name: '', email: '' });
-            setName('');
-            setEmail('');
-            showSuccessToast()
-        }
+      console.log(res);
+      if (res.status === 200) {
+        console.log("registration Done");
+        // setData({ name: '', email: '' });
+        setName('');
+        setEmail('');
+        showSuccessToast()
+      }
     }).catch((err) => {
-        console.log("error while registarting", err);
-        showerrorToast()
+      console.log("error while registarting", err);
+      showerrorToast()
     })
 
-};
+  };
 
-const isValidEmail = (email) => {
-  // Regular expression for basic email validation
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return emailRegex.test(email);
-};
+  const isValidEmail = (email) => {
+    // Regular expression for basic email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  // const onCapChange = (value) => {
+    
+  // };
 
 
   return (
@@ -98,7 +102,7 @@ const isValidEmail = (email) => {
         </div>
         <div className="paragraph">
           <p>
-            <span style={{ fontWeight: "bold", color: "white" }}>
+            <span style={{  color: "white" }}>
               PRE-REGISTRATION
             </span>{" "}
             has started, submit your name and E-MAIL ID to get prior
@@ -110,10 +114,10 @@ const isValidEmail = (email) => {
           <input
             className="input-field-name"
             onChange={handleNameChange}
-                        id='name'
-                        value={name}
-                        type="text"
-                        placeholder="Enter Name here"
+            id='name'
+            value={name}
+            type="text"
+            placeholder="Enter Name here"
           />
           <input
             className={isMobile ? "input-field-name" : "input-field-email"}
@@ -132,8 +136,12 @@ const isValidEmail = (email) => {
             SUBMIT
           </button>
         </form>
+        {/* <ReCAPTCHA
+            sitekey="6Ld5ET0nAAAAAD8IAotZZnSL3jxwbIKWQefuCl_B"
+            onChange={onCapChange}
+          />, */}
       </div>
-      <ToastContainer/>
+      <ToastContainer />
     </div>
   );
 };

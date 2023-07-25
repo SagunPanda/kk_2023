@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200'); */
 
 * {
   padding: 0;
@@ -23,6 +23,7 @@ li {
   position: sticky;
   top: 0;
   z-index: 100;
+  font-family: "Medium";
 
   /*box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
 }
@@ -34,7 +35,7 @@ li {
 }
 
 .nav-links li {
-  color: white;
+  color: rgb(229, 221, 221);
   font-size: 20px;
   padding: 10px 20px;
   margin: 0 10px;

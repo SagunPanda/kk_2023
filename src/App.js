@@ -1,4 +1,8 @@
 import "./App.css"
+
+// import "./font/Ubuntu-R.ttf"
+import "./fontswebsite/Ubuntu-Medium.ttf"
+import "./fontswebsite/BaiJamjuree-Bold.ttf"
 import React from "react"
 import Navbar from "./compoent/Navbar"
 import TimeLine from "./compoent/Timeline"

@@ -10,16 +10,17 @@ const Homepage = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 1200px)" });
 
   const [visitorCount, setVisitorCount] = useState(0);
-  
+
   useEffect(() => {
     fetchVisitorCount();
   }, []);
 
   const fetchVisitorCount = () => {
+
     axios
       .get("http://13.235.33.145:8000/users/count")
       .then((response) => {
-        const count = response.data; 
+        const count = response.data;
         setVisitorCount(count);
       })
       .catch((error) => {
@@ -35,7 +36,8 @@ const Homepage = () => {
             <h2 className="start">KANINE KLANS</h2>
           </div>
           <div className="solid-line-first"></div>
-          <h1 className="text-h1">COMING SOON</h1>
+          {/* <h1 className="text-h1">COMING&nbsp;&nbsp;COMING</h1> */}
+          <h1 className="text-h2">COMING SOON</h1>
           <div className="solid-line-second"></div>
           <div className="end-section">
             <h2 className="end">TO THE MARS</h2>

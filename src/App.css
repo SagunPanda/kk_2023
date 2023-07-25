@@ -1,5 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
 body {
    font-family: 'Ubuntu', sans-serif;
-}
+} */
+
+@font-face {
+   font-family: "Medium";   /*Can be any text*/
+   src: local("UbantuRegular"),
+     url("./fontswebsite/Ubuntu-Medium.ttf") format("truetype");
+ }
+
+ @font-face {
+   font-family: "Bold";   /*Can be any text*/
+   src: local("BaiJanjuree"),
+     url("./fontswebsite/BaiJamjuree-Bold.ttf") format("truetype");
+ }
+
+ @font-face {
+   font-family: "bold";   /*Can be any text*/
+   src: local("Ubuntu-Bold"),
+     url("./fontswebsite/BaiJamjuree-Bold.ttf") format("truetype");
+ }
