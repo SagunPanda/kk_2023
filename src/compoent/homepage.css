@@ -144,7 +144,7 @@
     text-align: center;
     font-size: 2.1rem;
     /* word-spacing: 1rem; */
-    margin: 1rem 0;
+    margin: 0rem 0;
   }
 
   .start-section-top {
@@ -153,20 +153,22 @@
 
   .start {
     font-size: 0.9rem;
-    margin-bottom: 0.5rem;
+    
   }
 
   .end {
     font-size: 0.9rem;
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
   }
 
   .solid-line-first {
     width: 11rem;
+    margin-bottom: 10px;
   }
 
   .solid-line-second {
     width: 11rem;
+    margin-bottom: 10px;
   }
 
   .single-line-container {
