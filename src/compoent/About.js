@@ -7,7 +7,7 @@ const About = () => {
     <>
       <section className="about-us" id="about">
         <div className="start-section start-section-aboutus">
-          <h1 style={{ fontWeight: "bold", color: "white" }}>ABOUT US</h1>
+          <h1 style={{  color: "white"  }}>ABOUT US</h1>
           <div className="underline"></div>
         </div>
         <div className="about-card-container">

@@ -33,7 +33,7 @@ const Timeline = () => {
                 <img className="darkline" src={darkline} alt="line" />
               </div>
               <div className="month-content">
-                <h1>JUNE </h1>
+                <h1>JULY </h1>
                 <div className="content">
                   Beta Version Ready. - @Game Development team.
                   <br />
