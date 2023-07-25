@@ -84,7 +84,7 @@ const Timeline = () => {
                   <br />
                   Community Building
                   <br />
-                  Whitepaper Public
+                  Whitepaper and Tokenomics Live
                 </div>
               </div>
             </div>
@@ -123,9 +123,9 @@ const Timeline = () => {
                   <br />
                   Community building
                   <br />
-                  IDO - to be announced
+                  IDO Announcement
                   <br />
-                  NFT Sale - to be announced
+                  NFT Sale Announcement
 
                 </div>
               </div>
