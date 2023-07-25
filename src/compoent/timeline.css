@@ -97,6 +97,7 @@
       flex-direction: column;
       height: unset;
       padding-top: 5rem;
+      padding-bottom: 2rem
     }
     .text-area {
       padding: 0;

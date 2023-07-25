@@ -105,7 +105,7 @@ const Card = () => {
             <span style={{  color: "white" }}>
               PRE-REGISTRATION
             </span>{" "}
-            has started, submit your name and E-MAIL ID to get prior
+            has started for the Beta Testing, submit your name and E-MAIL ID to get prior
             notification whenever the game will launch. You will get the
             notification on your email from us.
           </p>

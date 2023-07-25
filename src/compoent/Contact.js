@@ -47,14 +47,14 @@ const Contact = () => {
           </div>
           <h3 className="footer-contact-h1">CONTACT US</h3>
           <div className="mail">
-          <a href=" official@kanineklans.com"><img src={Mail} alt="mail" /> </a>
+          <a href=" mailto:official@kanineklans.com"><img src={Mail} alt="mail" /> </a> &nbsp;  
           <a href=" https://join.skype.com/invite/wzxEJUDAlQ0T"><img src={Component} alt="comp" /> </a>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
         <ul className="footer-nav">
-          <p> Copyright SYBO 2012 - 2022 ,  All Rights Reserved.</p>
+          <p> Copyright SYBO 2023 - 2024 ,  All Rights Reserved.</p>
         </ul>
       </div>
     </footer>

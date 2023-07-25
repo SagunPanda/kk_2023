@@ -35,17 +35,13 @@ const Timeline = () => {
               <div className="month-content">
                 <h1>JULY </h1>
                 <div className="content">
-                  Beta Version Ready. - @Game Development team.
+                Game Concept Finalization
                   <br />
-                  QA testing
+                  Team Building
                   <br />
-                  NFT development
+                  3D Assets creation for MVP
                   <br />
-                  NFT Marketplace development
-                  <br />
-                  White Paper
-                  <br />
-                  Community Building - AMA, Session
+                  Website V1 Launch
                 </div>
               </div>
             </div>
@@ -60,11 +56,14 @@ const Timeline = () => {
               <div className="month-content-n">
                 <h1>AUGUST</h1>
                 <div className="content">
-                  User Testing
+                Pre Teaser Launch
                   <br />
-                  Community Building - AMA, Twitter Spaces, Hupe Start
+                  3D Assets build 
                   <br />
-                  Partnerships - Strategic(Blockchain, projects)
+                  Community Building
+                  <br />
+                  Strategic Partnerships
+
                 </div>
               </div>
             </div>
@@ -79,14 +78,13 @@ const Timeline = () => {
               <div className="month-content-n">
                 <h1>SEPTEMBER</h1>
                 <div className="content">
-                  Feedback & changes accordingly
+                Beta Testing of Game 
                   <br />
-                  Seed Round open
+                  Seed Sale Start
                   <br />
-                  MVP Launch - Amazon, PlayStore, Itch Apple Store - Early User
-                  Access
+                  Community Building
                   <br />
-                  Community Building - Offl ine events, Sessions, AMAs
+                  Whitepaper Public
                 </div>
               </div>
             </div>
@@ -101,11 +99,11 @@ const Timeline = () => {
               <div className="month-content-n">
                 <h1>OCTOBER</h1>
                 <div className="content">
-                  Free Gaming lobby open for quest
+                MVP Launch
                   <br />
-                  Community Building - Hype of NFTs
+                  Gaming Community Building
                   <br />
-                  Influencer Marketing
+                  Strategic Partnerships
                 </div>
               </div>
             </div>
@@ -119,11 +117,16 @@ const Timeline = () => {
               <div className="month-content-m">
                 <h1>NOVEMBER</h1>
                 <div className="content">
-                  NFT SALE
+                NFT Development start
                   <br />
-                  Player Start Playing
+                  Game Development Phase 2 start
                   <br />
-                  Private Sale - Round 1 open
+                  Community building
+                  <br />
+                  IDO - to be announced
+                  <br />
+                  NFT Sale - to be announced
+
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './card.css'
-import lock from '../assets/Lock_Icon.svg.png';
+import lock from '../assets/Vectorrr.png';
 
 
 const Card = () => {
