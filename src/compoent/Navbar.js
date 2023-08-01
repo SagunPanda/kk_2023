@@ -11,12 +11,19 @@ const Navbar = () => {
   const [Mobile, setMobile] = useState(false);
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const [isNavOpen, setIsNavOpen] = useState(false);
+
+  
   return (
     <>
       <nav className="navbar">
-        <a href="/" className="logo">
+        <Link href="/" className="logo" 
+          to="homepage"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}>
           <img src={logo} alt="logo" />
-        </a>
+        </Link>
 
         {isMobile ? (
           <div>

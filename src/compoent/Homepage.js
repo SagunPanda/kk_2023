@@ -31,7 +31,7 @@ const Homepage = () => {
 
   return (
     <>
-      <section className="hero-section">
+      <section className="hero-section" id="homepage">
         <div className="text-section">
           <div className="start-section start-section-top">
             <h2 className="start">KANINE KLANS</h2>
