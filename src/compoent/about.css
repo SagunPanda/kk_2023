@@ -1,0 +1,137 @@
+.start-section {
+  position: relative;
+}
+
+.underline {
+  position: absolute;
+  bottom: -1px; /* Adjust this value to change the line's position */
+  left: 15px;
+  height: 10px; /* Adjust this value to change the line's thickness */
+  width: 90%;
+  background-color: #5df5ff;
+}
+
+.about-us {
+  background-color: black;
+  padding-left: 100px;
+  justify-content: center;
+  height: 60rem;
+  font-family: "Medium";
+  position: relative;
+  padding-top: 15rem;
+  padding-bottom: 50rem;
+  color: white;
+}
+
+.about-us-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.start-section h1 {
+  font-size: 40px;
+  flex: 1;
+}
+
+.about-card-container {
+  flex: 1;
+  margin-left: 50px;
+  /* position: relative; */
+}
+.wolf-svg {
+  position: absolute;
+  left: 0;
+  /* top: -5rem; */
+  z-index: 0;
+}
+.about-glow-container {
+  z-index: 0;
+}
+.about-glow-svg {
+  position: absolute;
+  right: 0;
+  top: 3rem;
+  /* width: 20rem;
+  height: 30rem; */
+}
+
+.about-boxes {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.about-boxes-rectangle {
+  position: absolute;
+  border: 5px solid #5df5ff;
+  border-radius: 0.3125rem;
+  width: 79%;
+  height: 6rem;
+  top: 5rem;
+  left: 5.5rem;
+  /* left: -5rem; */
+  z-index: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .about-boxes-rectangle {
+    width: 100%;
+    left: max(-4%, -2.5rem);
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-us {
+    padding-left: 0;
+    height: fit-content;
+    padding-bottom: 5rem;
+    padding-top: 9rem;
+  }
+  .about-card-container {
+    flex: unset;
+    margin-left: unset;
+    width: 90%;
+  }
+  .about-card-p {
+    width: fit-content;
+  }
+  .start-section {
+    padding: 0 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-right: unset;
+  }
+  .start-section-aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    width: 100%;
+  }
+  .underline {
+    width: 10rem;
+    margin-left: 4rem;
+    left: unset;
+  }
+  .wolf-svg {
+    top: -18rem;
+    left: -30%;
+    width: 110vw;
+    /* mix-blend-mode: normal; */
+    /* clip-path: inset(2rem 10rem 2rem 2rem); */
+  }
+
+  .about-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-boxes-rectangle {
+    height: 105%;
+    width: 10rem;
+    top: -2rem;
+    left: unset;
+  }
+}
