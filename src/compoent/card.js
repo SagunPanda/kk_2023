@@ -56,7 +56,7 @@ const Card = () => {
 
 
     //    Axios
-    axios.post("http://13.235.33.145:8000/users", {
+    axios.post("https://api.kanineklans.com/users", {
       // name: data.name,
       // email: data.email
       name: name,

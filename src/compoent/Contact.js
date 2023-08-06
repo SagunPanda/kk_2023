@@ -37,18 +37,18 @@ const Contact = () => {
           <h3>SOCIAL MEDIA</h3><br />
           <div className="social-icons">
 
-            <a href="https://www.facebook.com/profile.php?id=100094547791381"><img src={Facebook} alt="facebook" /></a>
-            <a href="https://twitter.com/kanineklans?s=21&t=IN1A6g80NSSrUEYEV8ZC-w"><img src={Twitter} alt="twitter" /></a>
-            <a href="https://instagram.com/kanineklans?igshid=Y2I2MzMwZWM3ZA=="><img src={Insta} alt="instagram" /></a>
-            <a href="https://www.linkedin.com/company/kanineklans/"><img src={Linkedin} alt= "linkedin"/></a>
-            <a href="https://discord.gg/6ZHEcvjGXN"><img src={Discord} alt="discord" /></a>
-            <a href="https://www.threads.net/@kanineklans?igshid=MzRlODBiNWFlZA=="><img src={Thread} alt="thread" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100094547791381" target="Blank"><img src={Facebook} alt="facebook" /></a>
+            <a href="https://twitter.com/kanineklans?s=21&t=IN1A6g80NSSrUEYEV8ZC-w" target="Blank"><img src={Twitter} alt="twitter" /></a>
+            <a href="https://instagram.com/kanineklans?igshid=Y2I2MzMwZWM3ZA==" target="Blank"><img src={Insta} alt="instagram" /></a>
+            <a href="https://www.linkedin.com/company/kanineklans/" target="Blank"><img src={Linkedin} alt= "linkedin"/></a>
+            <a href="https://discord.gg/6ZHEcvjGXN" target="Blank"><img src={Discord} alt="discord" /></a>
+            <a href="https://www.threads.net/@kanineklans?igshid=MzRlODBiNWFlZA==" target="Blank"><img src={Thread} alt="thread" /></a>
 
           </div>
           <h3 className="footer-contact-h1">CONTACT US</h3>
           <div className="mail">
-          <a href=" mailto:official@kanineklans.com"><img src={Mail} alt="mail" /> </a> &nbsp;  
-          <a href=" https://join.skype.com/invite/wzxEJUDAlQ0T"><img src={Component} alt="comp" /> </a>
+          <a href="mailto:official@kanineklans.com" target="Blank"><img src={Mail} alt="mail" /> </a> &nbsp;  
+          <a href="https://join.skype.com/invite/wzxEJUDAlQ0T" target="Blank"><img src={Component} alt="comp" /> </a>
           </div>
         </div>
       </div>

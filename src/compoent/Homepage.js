@@ -19,7 +19,7 @@ const Homepage = () => {
 
   const fetchVisitorCount = () => {
     axios
-      .get("http://13.235.33.145:8000/users/count")
+      .get("https://api.kanineklans.com/users/count")
       .then((response) => {
         const count = response.data;
         setVisitorCount(count);
